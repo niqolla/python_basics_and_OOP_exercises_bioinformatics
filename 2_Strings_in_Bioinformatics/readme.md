@@ -7,8 +7,8 @@ having an absolute frequency of the same residue higher or equal than a given th
 provided as an argument named “absolute_threshold” for a given residue. The function
 should be named as follows, with the same arguments definition:
 
-    get_proteins_ratio_by_residue_threshold(filename,
-        residue,relative_threshold=0.03, absolute_threshold=10)
+        get_proteins_ratio_by_residue_threshold(filename,
+            residue,relative_threshold=0.03, absolute_threshold=10)
 
 
 2) Given a protein FASTA file (filename), save on a output file named output_filename the
@@ -17,12 +17,13 @@ in the protein of all the aminoacids found in the protein (the aminoacids that d
 in the protein should not be shown). The fields must be separated by a tabulator, and one
 protein by line.
 
-    print_sequence_summary(filename,
-        output_filename,
-        first_n=10,
-        last_m=10)
+        print_sequence_summary(filename,
+            output_filename,
+            first_n=10,
+            last_m=10)
 
 Example:
+
     Input: 
     >PROT1
     EFTRPTSTWSAAALMTRSSSTRWSPD

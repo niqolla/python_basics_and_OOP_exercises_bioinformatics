@@ -15,9 +15,9 @@ When the file is imported as a module, it should not execute the function. The f
 called when the script is executed by command line.
 
 
-Sample output in command line:
-A: 22.7400
-B: 20.4224
-N: 23.9393
-F: 23.9730
-J: 23.4187
+        Sample output in command line:
+        A: 22.7400
+        B: 20.4224
+        N: 23.9393
+        F: 23.9730
+        J: 23.4187
