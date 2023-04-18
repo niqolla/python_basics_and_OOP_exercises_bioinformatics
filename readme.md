@@ -295,3 +295,4 @@ Output format:
     Identifier1     Length1     molecular_weight1
     Identifier2     Length2     molecular_weight2
     Identifier3     Length3     molecular_weight3
+
